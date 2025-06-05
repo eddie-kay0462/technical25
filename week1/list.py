@@ -164,18 +164,21 @@ k = ["Fruits", "Vegetables", "Drinks"]
 val = [["Apple", "Banana"], ["Carrot", "Spinach"], ["Water", "Juice"]]
 
 #create a dictionary of lists using zip
-# d = list(zip(k, val))
+# d = dict(zip(k, val))
 # print(d)
 
 #c--> Use defaultdict from collections defaultdict is a special kind of dictionary from the collections module in Python.
 #It automatically gives a default value for a key that doesn’t exist, instead of giving an error.
-from collections import defaultdict
-d = defaultdict(list)
-d["fruits"].append("apple")
-d["fruits"].append("mango")
-d["veggies"].append("onion")
-d["veggies"].append("carrot")
-print(d)
+# from collections import defaultdict
+# d = defaultdict(list)
+# d["fruits"].append("apple")
+# d["fruits"].append("mango")
+# d["veggies"].append("onion")
+# d["veggies"].append("carrot")
+# print(d)
 
+
+
+#Create a list of tuples in python
 
 
