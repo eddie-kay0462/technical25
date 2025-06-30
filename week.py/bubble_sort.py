@@ -8,8 +8,9 @@ def bubble_sort(list):
             if list[i] > list[i+1]:
                 list[i], list[i+1] = list[i+1], list[i]
                 sorted = False
+        unsorted_until_index-=1
     return list
 
 
 
-print(bubble_sort([3, 2, 5, 4, 1]))
+print(bubble_sort([3, 2, 5, 4, 1, 11]))
